@@ -1,15 +1,33 @@
 # Product Manager
 
-This is a full-stack MERN (MongoDB, Express, React, Node.js) project for managing products. The application allows users to create new products with a title, price, and description.
+## Overview
 
-## Usage
+Product Manager is a full-stack MERN (MongoDB, Express, React, Node.js) application that allows users to create, read, update, and delete (CRUD) products. Each product has a title, price, and description. This project is built with a focus on demonstrating basic CRUD operations in a MERN stack application.
 
-1. Ensure MongoDB is running on your local machine or update the MongoDB connection string in `backend/config/database.js`.
+## Features
 
-2. Start both the backend and frontend servers .
+- Create new products
+- View a list of all products
+- View details of a specific product
+- Edit product details
+- Delete products
 
-3. Open your web browser and navigate to `http://localhost:3000`.
+## Screenshots
+### Main Page
+![image](https://github.com/RazanHarashe/Product_Manager/assets/144386815/fb9ffa24-32e6-4c77-b183-bb77d7e9c689)
+![image](https://github.com/RazanHarashe/Product_Manager/assets/144386815/b34318dc-e376-424e-b7b3-eafcd462e1b3)
 
-4. You should see a form where you can add a new product by entering a title, price, and description, then clicking the "Create" button.
 
+### Product Details
+![image](https://github.com/RazanHarashe/Product_Manager/assets/144386815/1ef91842-0d22-4ce6-910b-42a33638a7e8)
+
+
+### Edit Product
+<img width="895" alt="image" src="https://github.com/RazanHarashe/Product_Manager/assets/144386815/a85ce9c3-994e-48a5-b9d1-a0486092dc21">
+
+## Acknowledgements
+- React
+- Express
+- MongoDB
+- Node.js
 
