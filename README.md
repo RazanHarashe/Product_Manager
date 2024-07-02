@@ -23,7 +23,8 @@ Product Manager is a full-stack MERN (MongoDB, Express, React, Node.js) applicat
 
 
 ### Edit Product
-<img width="895" alt="image" src="https://github.com/RazanHarashe/Product_Manager/assets/144386815/a85ce9c3-994e-48a5-b9d1-a0486092dc21">
+<img width="895" alt="image" src="https://github.com/RazanHarashe/Product_Manager/assets/144386815/24798d0d-a46d-42eb-be2e-418aaac28494">
+
 
 ## Acknowledgements
 - React
