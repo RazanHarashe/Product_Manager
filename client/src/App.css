@@ -51,6 +51,10 @@ button {
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
+  max-width: 400px;
+  margin:10px auto;
+  display: block;
+  font-weight: bold;
 }
 
 button:hover {

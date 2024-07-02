@@ -14,6 +14,12 @@ const ProductList = () => {
         fetchProducts();
     }, []);
 
+    const deleteProduct = id => {
+        axios.delete(`http://localhost:8000/api/products/${id}`)
+            .then(() => setProducts(products.filter(product => product._id !== id)))
+            .catch(err => console.log(err));
+    }
+
     return (
         <div>
             <h2>All Products</h2>
@@ -21,6 +27,7 @@ const ProductList = () => {
                 {products.map(product => (
                     <div key={product._id}>
                         <Link to={`/products/${product._id}`}>{product.title}</Link>
+                        <button onClick={() => deleteProduct(product._id)}>Delete</button>
                     </div>
                 ))}
             </ul>
